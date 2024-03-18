@@ -79,6 +79,18 @@ o	Create a hierarchy diagram for any main action that can be performed using the
 •	State the back-end requirements.   
 •	Evaluate the security of the system. In a general manner of who should do it and not how it should be done.  
 
+### Design Explanations
+Page Specification
+- Use of labels for text
+- Colour and typography (use company branding for font type, font colour, background)
+
+Page Elements
+text areas, image size, text boxes, buttons etc
+
+### Test Approach
+White box testing (where I test the internal structure of the application) and black box testing (where I only test the input/outputs)
+
+
 ### Algorithm  
 •	Using pseudo code or any other appropriate method explain how functional parts like  
 o	Login in
