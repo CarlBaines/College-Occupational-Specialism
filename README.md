@@ -196,6 +196,8 @@ Data dictionaries - Field name, data type, field size, example of stored data, p
 
 Entity Relationship Diagrams - keys, relationships, data fields
 
+Navigation map - similar to hierarchy diagram, page at the top e.g. break sign in page down e.g. registration page, non-member, member, function in red. Information flow arrows.
+
 
 ## Code Snippets
 
