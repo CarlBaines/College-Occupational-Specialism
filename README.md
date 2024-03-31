@@ -247,37 +247,9 @@ Navigation map - similar to hierarchy diagram, page at the top e.g. break sign i
 	ID IDENTITY
  	HIGHCONTRAST BIT
 
-//Gets the name of the method(s) that the ID is used in and assigns the value of the variable.
+//Get set method
 
         public int Id { get; set; }
-
-
- 
-	public class AccessibilityHelper
-    	{
-        
-	public float? fontSize { get; set; }
-
-        public User currentUser { get; set; } = null;
-
-        public AccessibilityHelper() { }
-        public AccessibilityHelper(float fontSize)
-        {
-            this.fontSize = fontSize;
-        }
-
-        public void UpdateFontSize(Control.ControlCollection controls)
-        {
-            if (fontSize == null) return;
-
-            foreach (Control control in controls)
-            {
-                control.Font = new System.Drawing.Font(control.Font.Name, (float)fontSize);
-            }
-        }
-
-
-    }
 
  
 
@@ -365,21 +337,21 @@ GET HIGH CONTRAST
 
 ## Application Features
 
-## Calendar DropDown Menu for Reservation System
+CALENDAR DROPDOWN MENU FOR RESERVATION SYSTEM
 
 MonthCalendar Control
 
 	txtDateSelect.Text = monthCalendar.SelectionRange.Start.ToShortDateString();
  	# outputs a user-selected date in a text box and converts it to a short date.
 
-## Pass data from one form to another (helpful for order summary page)
+PASS DATA FROM ONE FORM TO ANOTHER (HELPFUL FOR ORDER SUMMARY PAGE)
 
  	public string stdpieceOfData {get; set;}
   	form.stdpieceOfData = textBox.Text
 	----Form you want to pass data to----
  	textBox.Text = std.pieceOfData;
   
-## Save User Settings at run time
+SAVE USER SETTINGS AT RUN TIME
 
 Project Properties -> Settings -> Enter default name, type, scope and value of variables -> Save Settings file
 
@@ -425,42 +397,28 @@ Onbutton Click
 	    
 	sqlConnection.Close();
 
-## Change font size of common controls
+## Change text color and font size of individual controls on the form
+RADIO BUTTONS
 
-Accessibility Class
+	radioButton_CheckedChanged{
+ 		label.ForeColor = Color.Blue;
+   	}
 
-	 public class AccessibilityHelper
-	 {
-	     public float? fontSize { get; set; }
-	
-	     public User currentUser { get; set; } = null;
-	
-	     public AccessibilityHelper() { }
-	     public AccessibilityHelper(float fontSize)
-	     {
-	         this.fontSize = fontSize;
-	     }
-	
-	     public void UpdateFontSize(Control.ControlCollection controls)
-	     {
-	         if (fontSize == null) return;
-	
-	         foreach (Control control in controls)
-	         {
-	             control.Font = new System.Drawing.Font(control.Font.Name, (float)fontSize);
-	         }
-	     }
-	
-	
-	 }
+COMBO BOX
 
-Assign font size of common controls in each form
+Edit items in string collection editor
 
-	public AccessibilityHelper accessibilityHelper { get; set; }
-	
-	this.accessibilityHelper = accessibilityHelper;
-	accessibilityHelper.UpdateFontSize(this.Controls);
+	{
+ 		int size = int.Parse(comboBox.Text);
+   		label.Font = new Font(label.Font.Name, size, label.Font.Style);
+     	}
 
+CHECKBOXES
+
+	{
+ 		label.Font = new Font (label.Font.Name, label.Font.Size, label.Font.Style ^ FontStyle.Bold);
+
+	}
 
 ## Modules
 
