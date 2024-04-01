@@ -370,6 +370,15 @@ Onbutton Click
 
  	SaveSettings();
 	GetSettings();
+
+PANEL/NAVBAR LINK UNDERLINE
+
+On label click
+
+	private void label1_Click(object sender, EventArgs e)
+	{
+    		panel.Left = label1.Left;
+	}
  
 
 ## Accessibility Features
