@@ -379,6 +379,41 @@ On label click
 	{
     		panel.Left = label1.Left;
 	}
+
+DRAWING TOOL (Possible use for educational materials)
+
+ 	Set panel background image to chosen image (so it can be drawn over)
+
+   	gp = panel1.CreateGraphics();
+
+     	int x = 0
+       	int y = 0
+	Graphics gp;
+
+ 	MOUSE CLICK EVENTS
+
+   	MouseUp
+
+     	start = false;
+
+      	MouseMove
+
+       	if (start)
+	{
+ 		if (x > 0 && y > 0)
+   		{
+			Pen p = new Pen (Brushes.Color, brushSize);
+   			gp.DrawLine(p , x, y, e.X, e.Y);
+      		}
+
+  		x = e.X;
+    		y = e.Y;
+      	}
+
+       	MouseDown
+
+ 	start = true;
+
  
 
 ## Accessibility Features
