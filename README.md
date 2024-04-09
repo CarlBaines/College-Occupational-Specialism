@@ -480,5 +480,15 @@ NewtonSoftJSON
 
 	JArray payloadObject = JArray.Parse(payload);
 
+## Potential Assets
+
+Giraffe Pattern Texture Image: https://www.rawpixel.com/image/6152526/photo-image-background-texture-abstract
+Put image into PowerPoint and solid fill white
+
+Logo: Canva 
+Panda icon used in logo - https://www.flaticon.com/free-icon/panda_8372002?term=panda&page=1&position=1&origin=tag&related_id=8372002
+
+
+
 
 
