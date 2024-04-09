@@ -481,12 +481,4 @@ NewtonSoftJSON
 	JArray payloadObject = JArray.Parse(payload);
 
 
-##Application Colour Scheme
-
-PANEL - DARK GREEN
-NAVBAR LINKS/PAGE NAMES - WHITE
-TEXT BOX PANEL - WHITE
-
-
-
 
