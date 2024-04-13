@@ -198,6 +198,46 @@ Entity Relationship Diagrams - keys, relationships, data fields
 
 Navigation map - similar to hierarchy diagram, page at the top e.g. break sign in page down e.g. registration page, non-member, member, function in red. Information flow arrows.
 
+### C# Programming Concepts
+
+Switch, Case
+
+	switch(value) {
+ 		case value:
+   			case code;
+      			break;
+	 	case different value:
+   			case code;
+      			break;
+		default:
+  			case code;
+     			break;
+
+Lists
+
+Fixed Length List
+
+ 	int[] intArray = new int {1,2,3,4,5}
+
+Dynamic List
+
+	List<data type> list = new List<int>()
+ 	list.add(value)
+  	list.remove(value)
+
+Loop through list
+
+	foreach (int i in list){
+ 		Console.WriteLine(i);
+   	]
+
+For Loop
+
+ 	for (int i = 0; i <list.Count; i++)
+  	#iterator variable, condition for loop, increments iterator
+  	
+  
+  		
 
 ## Code Snippets
 
