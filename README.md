@@ -129,7 +129,12 @@ o	A table to link to external sites if necessary.
 •	[Create a test plan for each part of the application] this would be classified as unit testing.  
 •	[Test the application]  test the whole application  
 •	A table testing each part of the code.  
-•	Show the outcome of the fixes you made after testing and explain how they are now better.  
+•	Show the outcome of the fixes you made after testing and explain how they are now better. 
+
+* Task 2 Development Documentation Layout
+  APIs, Modules, Classes, Code, Description of Code, Changes During Development
+
+
 ### Guidance  
 •	Make sure you use more than one programming language.
 • Ensure to collectt user input no matter how little so you can have something to test 
