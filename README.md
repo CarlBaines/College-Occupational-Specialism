@@ -213,6 +213,10 @@ Switch, Case
   			case code;
      			break;
 
+Async Keyword
+
+	The async keyword turns a method into an async method which allows you to use the await keyword. The await keyword 	suspends the calling method and gives control back to the caller until the awaited task is complete.
+
 Lists
 
 Fixed Length List
