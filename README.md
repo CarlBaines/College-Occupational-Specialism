@@ -393,6 +393,15 @@ MonthCalendar Control
 	txtDateSelect.Text = monthCalendar.SelectionRange.Start.ToShortDateString();
  	# outputs a user-selected date in a text box and converts it to a short date.
 
+Labels to display length of stay
+
+	fromlabel.Text = monthCalendar1.SelectionStart.ToString();
+ 	tolabel.Text = monthCalendar1.SelectionEnd.ToString();
+
+  	#format date to day, number, month, year
+
+   	("dddd, d MMMM, yyyy");
+
 PASS DATA FROM ONE FORM TO ANOTHER (HELPFUL FOR ORDER SUMMARY PAGE)
 
  	public string stdpieceOfData {get; set;}
