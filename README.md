@@ -490,6 +490,12 @@ DRAWING TOOL (Possible use for educational materials)
 	    
 	sqlConnection.Close();
 
+## Background Colour Changer
+
+On button click
+
+	this.BackColor = System.Drawing.Color.Colour;
+
 ## Change text color and font size of individual controls on the form
 RADIO BUTTONS
 
