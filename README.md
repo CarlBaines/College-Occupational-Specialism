@@ -1,110 +1,4 @@
 
-## General notes  
-With every benefit listed, constraints must be considered.  
-Every decision made should be made based on how the stakeholder would benefit from it, this should be mentioned when evaluating.  
-Add descriptive diagrams like UML, Use case diagram, flowchart… where necessary.  
-
-
-### OCC Pre-Task Research  
-•	Find at least 3 examples of applications that match the type you want to develop.  
-•	State the features they all have in common and how they are used.
-• Find out about the legalities involved in making an application like this, Data, permissions and all
-•	Give a detailed description of how these applications work (each).  
-•	State the negative sides you have found in the application.  
-•	While talking about a specific application show screenshots of the interface to enable the reader to better understand what you are talking about.  
-•	Evaluate the UI of the application, state what you like and what you would fix.  
-•	If the applications have a website, take screenshots of the interface and evaluate them  
-•	Talk about the website and how it works.  
-•	Talk about how usable the website was.  
-o	Learnability: How easy can the user understand it  
-o	Efficiently: How easy can the user perform tasks  
-o	Errors: How many errors can the user encounter and how is it handled  
-o	Satisfaction: How pleasant looking is design  
-•	Talk about all this in detail for all the websites.  
-•	Talk about empathy map and how you will use it in the design. [Feel, thinks, says, does]  
-
-# Task 1 (To Do List)
-### Planning and system requirements <br>
-•	Specify the minimum system requirements to run the application. <br>
-  o	Processor <br>
-  o	RAM <br>
-  o	Hard disk space <br>
-  o	Graphics card <br>
-  o	Display <br>
-•	Specify the minimum mobile requirements to run the application. <br>
-  o	Processor <br>
-  o	RAM  
-  o	Android or IOS version   
-  o	Battery capacity  
-
-## Task1A 
-### The Proposal  
-•	In the proposal start with a [Motivational type sentence that gives the solution importance  
-•	List what I have been asked to do/ or what the owner wants.  
-•	List the reason they want to build this solution, start with a paragraph that explains, then list   
-•	List the benefits this might have. Start with a brief explanation and then list.  
-•	Talk more on how this solution will help.  
-•	State what the client would like the system to have. Use the words [Must, should, could] and list them according to importance.  
-•	List the different parts/layers of the system like [Mobile, web, database]. Explain then list.  
-•	Create a use case diagram that visualises how the system would work.  
-•	Explain how this works a bit.  
-•	Using a quality model like FURPS (Functionality, usability, Reliability, Performance and supportability) explain how your proposal will meet all this.  
-•	In the functionality, make sure to list the functional and non-functional requirements.  
-•	State where the website will link to if any.  
-•	List the accessibility features you might consider. Error messages need to be helpful and have an error icon. Visual 		hierarchies etc. 
-•	Create a Hierarchy diagram for  
-o	How a user would log in / Create an account   
-o	Create a hierarchy diagram for any main action that can be performed using the application / Create a user journey diagram for the process.  
-•	Talk about the UI/UX and how you want to approach it, talk about the needs and wants of the stakeholder.  
-•	If needed create a sort of table that shows the features or activities that can be performed by each user [Admin, customer]  
-•	Explain and evaluate the user requirements, justify the requirement. Explain who is likely to use the website and legalities involved.
-• Identify the potential risk and how you will mitigate them, like a table [Risk, Solution]  
-•	Evaluate things like legal, accessibility and benefit/ disadvantages
-• Do this for the requirements [Table type (Features, priority, justification)].  
-•	Conclude and evaluate what you will be creating [Like a paragraph explaining your solution]
-### Guidance  
-•	Make sure that the solution addresses all the needs of the client, make this obvious that you have considered this and explain how you have achieved this.  
-•	Justify your proposal adequately in context to how this is what the stakeholder would want and your rationale behind such decisions.  
-•	When you have stated all the positives remember to list the potential risks that are involved and how you intend to stop this from having any adverse effects on the solution  
-•	While discussing make sure that you consider all the legal guidelines and regulation pertaining to how you want to develop the solution  
-•	Make sure to break down and explain all the functional non-functional requirements and how they would benefit the software. Frontend and backend needs. 
-•	Consider the KPI and user acceptance criteria, The KPI should be something like “The software should run on multiple types of devices” This would evaluate how and if this was net at the end. The user acceptance criteria should be in a user wants and can the user do type of scenario.  
-## Task1B 
-### Visual/interface designs  
-•	For each design create a user interface  
-•	Include a way to demonstrate user journey.  
-•	The design should include justifications of the colours used.  
-•	Follow the W3C guidelines.  
-•	State the front-end requirements.  
-•	State the back-end requirements.   
-•	Evaluate the security of the system. In a general manner of who should do it and not how it should be done.  
-
-### Design Explanations
-Page Specification
-- Use of labels for text
-- Colour and typography (use company branding for font type, font colour, background)
-
-Page Elements
-text areas, image size, text boxes, buttons etc
-
-### Test Approach
-White box testing (where I test the internal structure of the application) and black box testing (where I only test the input/outputs)
-
-
-### Algorithm  
-•	Using pseudo code or any other appropriate method explain how functional parts like  
-o	Login in
-o	Registering a new user  
-o	How booking an order would work.  
-• Have a justification of each Algorithm and put more context on how it should really work  
-•	If needed create a table for each error that might happen for each algorithm and how it would be handled  
-•	Create a Data table [Name, function, Data type and reason] of data that you will use.  
-•	Create diagrams to explain the backend [Data Model].  
-o	Conceptual  
-o	Logical  
-o	Physical  
-•	Explain how you intend to test this system [Type, Who, data set, when, time, outcome]  
-
 # Task 2 Prototype (To Do List)
 •	For the code  
 o	Use a consistent naming convention.  
@@ -190,18 +84,6 @@ Task 1: 20 hours [Proposal – 24, Design and test plan – 34] <br>
 Task 2: 30 hours [Prototype – 48] <br>
 Task 3a: 15 hours [Feedback – 24] <br>
 Task 3b: 2 hours [Evaluation – 15] <br>
-
-## Diagrams
-
-Use case diagrams - actors and the system
-
-User journey mapping diagram - show how the user, the system and server interact with each other as the user moves and performs actions through the application.
-
-Data dictionaries - Field name, data type, field size, example of stored data, primary/foreign key, validation column.
-
-Entity Relationship Diagrams - keys, relationships, data fields
-
-Navigation map - similar to hierarchy diagram, page at the top e.g. break sign in page down e.g. registration page, non-member, member, function in red. Information flow arrows.
 
 ### C# Programming Concepts
 
@@ -544,13 +426,6 @@ NewtonSoftJSON
 
 	JArray payloadObject = JArray.Parse(payload);
 
-## Potential Assets
-
-Giraffe Pattern Texture Image: https://www.rawpixel.com/image/6152526/photo-image-background-texture-abstract
-Put image into PowerPoint and solid fill white
-
-Logo: Canva 
-Panda icon used in logo - https://www.flaticon.com/free-icon/panda_8372002?term=panda&page=1&position=1&origin=tag&related_id=8372002
 
 
 
