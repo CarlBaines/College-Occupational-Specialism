@@ -367,6 +367,13 @@ DRAWING TOOL (Possible use for educational materials)
 	    }
 	    
 	sqlConnection.Close();
+
+
+REMOVE BACKGROUND IMAGE ON CLICK
+
+	BackgroundImage = null;
+
+
  
 ## Increase font size of common controls
 
