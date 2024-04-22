@@ -87,19 +87,6 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 
 ### C# Programming Concepts
 
-Switch, Case
-
-	switch(value) {
- 		case value:
-   			case code;
-      			break;
-	 	case different value:
-   			case code;
-      			break;
-		default:
-  			case code;
-     			break;
-
 Async Keyword
 
 	The async keyword turns a method into an async method which allows you to use the await keyword. The await keyword 	suspends the calling method and gives control back to the caller until the awaited task is complete.
@@ -380,6 +367,68 @@ DRAWING TOOL (Possible use for educational materials)
 	    }
 	    
 	sqlConnection.Close();
+ 
+## Increase font size of common controls
+
+Accessibility Class
+
+	public class AccessibilityHelper
+	{
+	    public float? fontSize { get; set; }
+	
+	    public User currentUser { get; set; } = null;
+	
+	    public AccessibilityHelper() { }
+	    public AccessibilityHelper(float fontSize)
+	    {
+	        this.fontSize = fontSize;
+	    }
+	
+	    public void UpdateFontSize(Control.ControlCollection controls)
+	    {
+	        if (fontSize == null) return;
+	
+	        foreach (Control control in controls)
+	        {
+	            control.Font = new System.Drawing.Font(control.Font.Name, (float)fontSize);
+	        }
+	    }
+	
+	
+	}
+
+IN EVERY FORM YOU WANT THE FONT SIZE TO APPLY TO
+
+	public AccessibilityHelper accessibilityHelper { get; set; }
+
+ 	public Form1(AccessibilityHelper accessibilityHelper)
+
+    		this.accessibilityHelper = accessibilityHelper;
+		accessibilityHelper.UpdateFontSize(this.Controls);
+
+FONT SIZE BUTTON CLICK
+
+	 int fontSize;
+
+	 //Checks to see if the user input is an integer.
+	 try
+	 {
+	     fontSize = int.Parse(txtChangeFontSize.Text);
+	 }
+	 
+	 //If the user input is not an integer, an error message box is displayed and the text box is reset.
+	 catch
+	 {
+	     MessageBox.Show("Please enter a valid font size");
+	     txtChangeFontSize.Text = "";
+	     return;
+	 }
+	 
+	 //Else sets the user input entered as the font size and runs the method from the accessibiltiyHelper class.
+	 accessibilityHelper.fontSize = int.Parse(txtChangeFontSize.Text);
+	 accessibilityHelper.UpdateFontSize(this.Controls);
+	            
+ 
 
 ## Background Colour Changer
 
