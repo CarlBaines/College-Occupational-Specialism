@@ -483,15 +483,8 @@ NewtonSoftJSON
 	JArray payloadObject = JArray.Parse(payload);
 
 
-## ISSUES TO WORK WITH TOMORROW
 
-- USER ACCESS LEVELS
-- GIVE ERROR MESSAGE MESSAGE BOXES CROSS ICON
-- FONT SIZE (ACCESSIBILITY HELPER)
-  	check program.cs on mock
 
-- HIGH CONTRAST AND APPLYING IT TO ALL PAGES
-- COMMENTING CODE
 
 
 ## USER ACCESS LEVELS
@@ -536,3 +529,6 @@ IF STATEMENT
    		Application.Run(new SignInPage(new AccessibilityHelper())));
 
      	}
+
+
+##COMMENT CODE!!!!!!!!!!!1111111
