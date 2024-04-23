@@ -483,6 +483,14 @@ NewtonSoftJSON
 	JArray payloadObject = JArray.Parse(payload);
 
 
+##ISSUES TO WORK WITH TOMORROW
+
+- USER ACCESS LEVELS
+- FONT SIZE (ACCESSIBILITY HELPER)
+  	check program.cs on mock
+
+- HIGH CONTRAST AND APPLYING IT TO ALL PAGES
+- BUGS IN TEST TABLE
 
 
 
