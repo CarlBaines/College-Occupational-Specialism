@@ -494,5 +494,45 @@ NewtonSoftJSON
 - COMMENTING CODE
 
 
+## USER ACCESS LEVELS
 
+IF USER IS SIGNED IN
 
+ 	//PASS USERNAME AS PARAMETER ON ALL PAGES EXCEPT NON-SIGNED IN ONES
+	Homepage homePage = new Homepage(username);
+
+IF USER IS NOT SIGNED IN
+
+	Homepage homePage = new Homepage("");
+
+IF STATEMENT
+
+ 	this.username = username
+  	if string.IsNullOrWhiteSpace(username){
+		//No one is logged in
+  		MessageBox.Show("Please sign in to get to this page")
+    	}
+	else{
+ 		//user is logged in
+   		CLOSE CURRENT PAGE AND NAVIGATE USER TO HOTEL/ZOO BOOKING PAGE
+     
+## APPLY HIGH CONTRAST TO ALL PAGES
+
+	use this.close(); on all pages
+
+ 	ON PAGE LOAD FUNCTION
+
+   		GET HIGH CONTRAST STORED PROCEDURE
+
+## ERROR MESSAGE BOXES WITH CROSS ICON
+
+	MessageBox.Show("Text", "Time", MessageBoxButtons.OK, MessageBoxIcon.Error);
+ 
+## ACCESSIBILITYHELPER BUG PROGRAM.CS
+
+	internal static class Program
+ 	static void main()
+  	{
+   		Application.Run(new SignInPage(new AccessibilityHelper())));
+
+     	}
