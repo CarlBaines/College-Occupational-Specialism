@@ -533,3 +533,18 @@ IF STATEMENT
 
 
 ##COMMENT CODE!!!!!!!!!!!1111111
+
+##CHECK TO SEE IF USERNAME IS THE SAME AS A USERNAME STORED IN THE DATABASE
+	
+	SqlCommand cmd = new SqlCommand("select * from [login] where UserName=@Name",con);
+	cmd.Parameters.AddWithValue("@Name", txtUsername.Text);
+	SqlDataReader dr = cmd.ExecuteReader();
+	
+	if (dr.HasRows)
+	{
+	   // "UserName Already Taken";
+	 }
+	else
+	{
+	  //"UserName Available";
+	}
